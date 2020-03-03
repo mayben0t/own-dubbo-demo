@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< org.example:dubboDemo >------------------------
+[INFO] Building dubboDemo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dubboDemo ---
+[INFO] org.example:dubboDemo:jar:1.0-SNAPSHOT
+[INFO] \- org.apache.dubbo:dubbo:jar:2.7.0:compile
+[INFO]    +- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+[INFO]    |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO]    |  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+[INFO]    +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO]    +- io.netty:netty-all:jar:4.1.25.Final:compile
+[INFO]    \- com.google.code.gson:gson:jar:2.8.5:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.038 s
+[INFO] Finished at: 2020-03-04T00:10:32+08:00
+[INFO] ------------------------------------------------------------------------
