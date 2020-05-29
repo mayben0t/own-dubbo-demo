@@ -6,7 +6,7 @@ import service.SayHelloService;
 public class Handler {
 
     public static void main(String[] args) throws Exception {
-        ClassPathXmlApplicationContext bf = new ClassPathXmlApplicationContext("beans.xml");
+        ClassPathXmlApplicationContext bf = new ClassPathXmlApplicationContext("./resources/beans.xml");
         bf.start();
         System.in.read();
 
