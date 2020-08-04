@@ -24,7 +24,7 @@ public class Application {
      * launch the application
      */
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("dubbo-consumer.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("./resources/dubbo-consumer.xml");
         context.start();
         SayHelloService sayHelloService = context.getBean(SayHelloService.class);
         String hello = sayHelloService.sayHello("world");

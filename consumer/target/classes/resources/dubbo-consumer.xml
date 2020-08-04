@@ -23,7 +23,7 @@
 
     <dubbo:application name="demo-con"/>
 
-    <dubbo:registry  protocol="zookeeper"  address="192.168.65.128:2181,192.168.65.129:2181,192.168.65.130:2181" />
+    <dubbo:registry  protocol="zookeeper"  address="192.168.1.106:2181" />
 
     <!-- generate proxy for the remote service, then demoService can be used in the same way as the
     local regular interface -->
